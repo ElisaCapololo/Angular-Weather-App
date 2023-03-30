@@ -1,4 +1,13 @@
 <div class="container">
-  Hello
+  <div class="upper-data">
+    <img src="../assets/hot.jpg" *ngIf="14 > 15" alt="Cold season">
+    <img src="../assets/cold.jpg" *ngIf="14 <= 15" alt="Hot season">
+
+    <div class="weather-data">
+      <div class="location">Wellington</div>
+      <div class="temperature">{{ 14.40 | number: '1.0-0' }}°C</div>
+    </div>
+  </div>
+  <div class="lower-data"></div>
 </div>
 <router-outlet></router-outlet>
