@@ -8,6 +8,52 @@
       <div class="temperature">{{ 14.40 | number: '1.0-0' }}°C</div>
     </div>
   </div>
-  <div class="lower-data"></div>
+  <div class="lower-data">
+    <div class="more-info-label">
+      More Information
+    </div>
+    <div class="more-info-container">
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/min.jpg" alt="">
+          <span>min</span>
+        </div>
+        <div class="info-block-value">
+          10°C
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/max.png" alt="">
+          <span>max</span>
+        </div>
+        <div class="info-block-value">
+          20°C
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/humity.jpg" alt="">
+          <span>humidity</span>
+        </div>
+        <div class="info-block-value">
+          77°C
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/wind.png" alt="">
+          <span>wind</span>
+        </div>
+        <div class="info-block-value">
+          11 km/h
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 <router-outlet></router-outlet>
